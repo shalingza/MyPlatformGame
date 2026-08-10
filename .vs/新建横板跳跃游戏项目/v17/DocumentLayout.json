@@ -1,0 +1,427 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\\u5DE5\u4F5C\u5B66\u4E60\\Godot_v4.6.1-stable_mono_win64\\\u9879\u76EE\\\u65B0\u5EFA\u6A2A\u677F\u8DF3\u8DC3\u6E38\u620F\u9879\u76EE\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2B5E05A7-0149-4A22-81AB-2BDE70B33755}|\u65B0\u5EFA\u6A2A\u677F\u8DF3\u8DC3\u6E38\u620F\u9879\u76EE.csproj|d:\\\u5DE5\u4F5C\u5B66\u4E60\\godot_v4.6.1-stable_mono_win64\\\u9879\u76EE\\\u65B0\u5EFA\u6A2A\u677F\u8DF3\u8DC3\u6E38\u620F\u9879\u76EE\\scripts\\hitbox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B5E05A7-0149-4A22-81AB-2BDE70B33755}|\u65B0\u5EFA\u6A2A\u677F\u8DF3\u8DC3\u6E38\u620F\u9879\u76EE.csproj|solutionrelative:scripts\\hitbox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B5E05A7-0149-4A22-81AB-2BDE70B33755}|\u65B0\u5EFA\u6A2A\u677F\u8DF3\u8DC3\u6E38\u620F\u9879\u76EE.csproj|d:\\\u5DE5\u4F5C\u5B66\u4E60\\godot_v4.6.1-stable_mono_win64\\\u9879\u76EE\\\u65B0\u5EFA\u6A2A\u677F\u8DF3\u8DC3\u6E38\u620F\u9879\u76EE\\classes\\shakycamera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B5E05A7-0149-4A22-81AB-2BDE70B33755}|\u65B0\u5EFA\u6A2A\u677F\u8DF3\u8DC3\u6E38\u620F\u9879\u76EE.csproj|solutionrelative:classes\\shakycamera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B5E05A7-0149-4A22-81AB-2BDE70B33755}|\u65B0\u5EFA\u6A2A\u677F\u8DF3\u8DC3\u6E38\u620F\u9879\u76EE.csproj|d:\\\u5DE5\u4F5C\u5B66\u4E60\\godot_v4.6.1-stable_mono_win64\\\u9879\u76EE\\\u65B0\u5EFA\u6A2A\u677F\u8DF3\u8DC3\u6E38\u620F\u9879\u76EE\\scripts\\hurtbox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B5E05A7-0149-4A22-81AB-2BDE70B33755}|\u65B0\u5EFA\u6A2A\u677F\u8DF3\u8DC3\u6E38\u620F\u9879\u76EE.csproj|solutionrelative:scripts\\hurtbox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B5E05A7-0149-4A22-81AB-2BDE70B33755}|\u65B0\u5EFA\u6A2A\u677F\u8DF3\u8DC3\u6E38\u620F\u9879\u76EE.csproj|d:\\\u5DE5\u4F5C\u5B66\u4E60\\godot_v4.6.1-stable_mono_win64\\\u9879\u76EE\\\u65B0\u5EFA\u6A2A\u677F\u8DF3\u8DC3\u6E38\u620F\u9879\u76EE\\globals\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B5E05A7-0149-4A22-81AB-2BDE70B33755}|\u65B0\u5EFA\u6A2A\u677F\u8DF3\u8DC3\u6E38\u620F\u9879\u76EE.csproj|solutionrelative:globals\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B5E05A7-0149-4A22-81AB-2BDE70B33755}|\u65B0\u5EFA\u6A2A\u677F\u8DF3\u8DC3\u6E38\u620F\u9879\u76EE.csproj|d:\\\u5DE5\u4F5C\u5B66\u4E60\\godot_v4.6.1-stable_mono_win64\\\u9879\u76EE\\\u65B0\u5EFA\u6A2A\u677F\u8DF3\u8DC3\u6E38\u620F\u9879\u76EE\\worlds\\cave.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B5E05A7-0149-4A22-81AB-2BDE70B33755}|\u65B0\u5EFA\u6A2A\u677F\u8DF3\u8DC3\u6E38\u620F\u9879\u76EE.csproj|solutionrelative:worlds\\cave.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B5E05A7-0149-4A22-81AB-2BDE70B33755}|\u65B0\u5EFA\u6A2A\u677F\u8DF3\u8DC3\u6E38\u620F\u9879\u76EE.csproj|d:\\\u5DE5\u4F5C\u5B66\u4E60\\godot_v4.6.1-stable_mono_win64\\\u9879\u76EE\\\u65B0\u5EFA\u6A2A\u677F\u8DF3\u8DC3\u6E38\u620F\u9879\u76EE\\scripts\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B5E05A7-0149-4A22-81AB-2BDE70B33755}|\u65B0\u5EFA\u6A2A\u677F\u8DF3\u8DC3\u6E38\u620F\u9879\u76EE.csproj|solutionrelative:scripts\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B5E05A7-0149-4A22-81AB-2BDE70B33755}|\u65B0\u5EFA\u6A2A\u677F\u8DF3\u8DC3\u6E38\u620F\u9879\u76EE.csproj|d:\\\u5DE5\u4F5C\u5B66\u4E60\\godot_v4.6.1-stable_mono_win64\\\u9879\u76EE\\\u65B0\u5EFA\u6A2A\u677F\u8DF3\u8DC3\u6E38\u620F\u9879\u76EE\\ui\\pausescreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B5E05A7-0149-4A22-81AB-2BDE70B33755}|\u65B0\u5EFA\u6A2A\u677F\u8DF3\u8DC3\u6E38\u620F\u9879\u76EE.csproj|solutionrelative:ui\\pausescreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B5E05A7-0149-4A22-81AB-2BDE70B33755}|\u65B0\u5EFA\u6A2A\u677F\u8DF3\u8DC3\u6E38\u620F\u9879\u76EE.csproj|d:\\\u5DE5\u4F5C\u5B66\u4E60\\godot_v4.6.1-stable_mono_win64\\\u9879\u76EE\\\u65B0\u5EFA\u6A2A\u677F\u8DF3\u8DC3\u6E38\u620F\u9879\u76EE\\ui\\knob.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B5E05A7-0149-4A22-81AB-2BDE70B33755}|\u65B0\u5EFA\u6A2A\u677F\u8DF3\u8DC3\u6E38\u620F\u9879\u76EE.csproj|solutionrelative:ui\\knob.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B5E05A7-0149-4A22-81AB-2BDE70B33755}|\u65B0\u5EFA\u6A2A\u677F\u8DF3\u8DC3\u6E38\u620F\u9879\u76EE.csproj|d:\\\u5DE5\u4F5C\u5B66\u4E60\\godot_v4.6.1-stable_mono_win64\\\u9879\u76EE\\\u65B0\u5EFA\u6A2A\u677F\u8DF3\u8DC3\u6E38\u620F\u9879\u76EE\\classes\\stats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B5E05A7-0149-4A22-81AB-2BDE70B33755}|\u65B0\u5EFA\u6A2A\u677F\u8DF3\u8DC3\u6E38\u620F\u9879\u76EE.csproj|solutionrelative:classes\\stats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B5E05A7-0149-4A22-81AB-2BDE70B33755}|\u65B0\u5EFA\u6A2A\u677F\u8DF3\u8DC3\u6E38\u620F\u9879\u76EE.csproj|d:\\\u5DE5\u4F5C\u5B66\u4E60\\godot_v4.6.1-stable_mono_win64\\\u9879\u76EE\\\u65B0\u5EFA\u6A2A\u677F\u8DF3\u8DC3\u6E38\u620F\u9879\u76EE\\classes\\statemachine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B5E05A7-0149-4A22-81AB-2BDE70B33755}|\u65B0\u5EFA\u6A2A\u677F\u8DF3\u8DC3\u6E38\u620F\u9879\u76EE.csproj|solutionrelative:classes\\statemachine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B5E05A7-0149-4A22-81AB-2BDE70B33755}|\u65B0\u5EFA\u6A2A\u677F\u8DF3\u8DC3\u6E38\u620F\u9879\u76EE.csproj|d:\\\u5DE5\u4F5C\u5B66\u4E60\\godot_v4.6.1-stable_mono_win64\\\u9879\u76EE\\\u65B0\u5EFA\u6A2A\u677F\u8DF3\u8DC3\u6E38\u620F\u9879\u76EE\\classes\\interactable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B5E05A7-0149-4A22-81AB-2BDE70B33755}|\u65B0\u5EFA\u6A2A\u677F\u8DF3\u8DC3\u6E38\u620F\u9879\u76EE.csproj|solutionrelative:classes\\interactable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B5E05A7-0149-4A22-81AB-2BDE70B33755}|\u65B0\u5EFA\u6A2A\u677F\u8DF3\u8DC3\u6E38\u620F\u9879\u76EE.csproj|d:\\\u5DE5\u4F5C\u5B66\u4E60\\godot_v4.6.1-stable_mono_win64\\\u9879\u76EE\\\u65B0\u5EFA\u6A2A\u677F\u8DF3\u8DC3\u6E38\u620F\u9879\u76EE\\globals\\soundmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B5E05A7-0149-4A22-81AB-2BDE70B33755}|\u65B0\u5EFA\u6A2A\u677F\u8DF3\u8DC3\u6E38\u620F\u9879\u76EE.csproj|solutionrelative:globals\\soundmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B5E05A7-0149-4A22-81AB-2BDE70B33755}|\u65B0\u5EFA\u6A2A\u677F\u8DF3\u8DC3\u6E38\u620F\u9879\u76EE.csproj|d:\\\u5DE5\u4F5C\u5B66\u4E60\\godot_v4.6.1-stable_mono_win64\\\u9879\u76EE\\\u65B0\u5EFA\u6A2A\u677F\u8DF3\u8DC3\u6E38\u620F\u9879\u76EE\\classes\\teleporter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B5E05A7-0149-4A22-81AB-2BDE70B33755}|\u65B0\u5EFA\u6A2A\u677F\u8DF3\u8DC3\u6E38\u620F\u9879\u76EE.csproj|solutionrelative:classes\\teleporter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B5E05A7-0149-4A22-81AB-2BDE70B33755}|\u65B0\u5EFA\u6A2A\u677F\u8DF3\u8DC3\u6E38\u620F\u9879\u76EE.csproj|d:\\\u5DE5\u4F5C\u5B66\u4E60\\godot_v4.6.1-stable_mono_win64\\\u9879\u76EE\\\u65B0\u5EFA\u6A2A\u677F\u8DF3\u8DC3\u6E38\u620F\u9879\u76EE\\ui\\volumeslider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B5E05A7-0149-4A22-81AB-2BDE70B33755}|\u65B0\u5EFA\u6A2A\u677F\u8DF3\u8DC3\u6E38\u620F\u9879\u76EE.csproj|solutionrelative:ui\\volumeslider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B5E05A7-0149-4A22-81AB-2BDE70B33755}|\u65B0\u5EFA\u6A2A\u677F\u8DF3\u8DC3\u6E38\u620F\u9879\u76EE.csproj|d:\\\u5DE5\u4F5C\u5B66\u4E60\\godot_v4.6.1-stable_mono_win64\\\u9879\u76EE\\\u65B0\u5EFA\u6A2A\u677F\u8DF3\u8DC3\u6E38\u620F\u9879\u76EE\\ui\\titlescreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B5E05A7-0149-4A22-81AB-2BDE70B33755}|\u65B0\u5EFA\u6A2A\u677F\u8DF3\u8DC3\u6E38\u620F\u9879\u76EE.csproj|solutionrelative:ui\\titlescreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B5E05A7-0149-4A22-81AB-2BDE70B33755}|\u65B0\u5EFA\u6A2A\u677F\u8DF3\u8DC3\u6E38\u620F\u9879\u76EE.csproj|d:\\\u5DE5\u4F5C\u5B66\u4E60\\godot_v4.6.1-stable_mono_win64\\\u9879\u76EE\\\u65B0\u5EFA\u6A2A\u677F\u8DF3\u8DC3\u6E38\u620F\u9879\u76EE\\classes\\savestone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B5E05A7-0149-4A22-81AB-2BDE70B33755}|\u65B0\u5EFA\u6A2A\u677F\u8DF3\u8DC3\u6E38\u620F\u9879\u76EE.csproj|solutionrelative:classes\\savestone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B5E05A7-0149-4A22-81AB-2BDE70B33755}|\u65B0\u5EFA\u6A2A\u677F\u8DF3\u8DC3\u6E38\u620F\u9879\u76EE.csproj|d:\\\u5DE5\u4F5C\u5B66\u4E60\\godot_v4.6.1-stable_mono_win64\\\u9879\u76EE\\\u65B0\u5EFA\u6A2A\u677F\u8DF3\u8DC3\u6E38\u620F\u9879\u76EE\\scripts\\camera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B5E05A7-0149-4A22-81AB-2BDE70B33755}|\u65B0\u5EFA\u6A2A\u677F\u8DF3\u8DC3\u6E38\u620F\u9879\u76EE.csproj|solutionrelative:scripts\\camera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B5E05A7-0149-4A22-81AB-2BDE70B33755}|\u65B0\u5EFA\u6A2A\u677F\u8DF3\u8DC3\u6E38\u620F\u9879\u76EE.csproj|d:\\\u5DE5\u4F5C\u5B66\u4E60\\godot_v4.6.1-stable_mono_win64\\\u9879\u76EE\\\u65B0\u5EFA\u6A2A\u677F\u8DF3\u8DC3\u6E38\u620F\u9879\u76EE\\scripts\\world.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B5E05A7-0149-4A22-81AB-2BDE70B33755}|\u65B0\u5EFA\u6A2A\u677F\u8DF3\u8DC3\u6E38\u620F\u9879\u76EE.csproj|solutionrelative:scripts\\world.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B5E05A7-0149-4A22-81AB-2BDE70B33755}|\u65B0\u5EFA\u6A2A\u677F\u8DF3\u8DC3\u6E38\u620F\u9879\u76EE.csproj|d:\\\u5DE5\u4F5C\u5B66\u4E60\\godot_v4.6.1-stable_mono_win64\\\u9879\u76EE\\\u65B0\u5EFA\u6A2A\u677F\u8DF3\u8DC3\u6E38\u620F\u9879\u76EE\\enemy\\boar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B5E05A7-0149-4A22-81AB-2BDE70B33755}|\u65B0\u5EFA\u6A2A\u677F\u8DF3\u8DC3\u6E38\u620F\u9879\u76EE.csproj|solutionrelative:enemy\\boar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B5E05A7-0149-4A22-81AB-2BDE70B33755}|\u65B0\u5EFA\u6A2A\u677F\u8DF3\u8DC3\u6E38\u620F\u9879\u76EE.csproj|d:\\\u5DE5\u4F5C\u5B66\u4E60\\godot_v4.6.1-stable_mono_win64\\\u9879\u76EE\\\u65B0\u5EFA\u6A2A\u677F\u8DF3\u8DC3\u6E38\u620F\u9879\u76EE\\classes\\damage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B5E05A7-0149-4A22-81AB-2BDE70B33755}|\u65B0\u5EFA\u6A2A\u677F\u8DF3\u8DC3\u6E38\u620F\u9879\u76EE.csproj|solutionrelative:classes\\damage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B5E05A7-0149-4A22-81AB-2BDE70B33755}|\u65B0\u5EFA\u6A2A\u677F\u8DF3\u8DC3\u6E38\u620F\u9879\u76EE.csproj|d:\\\u5DE5\u4F5C\u5B66\u4E60\\godot_v4.6.1-stable_mono_win64\\\u9879\u76EE\\\u65B0\u5EFA\u6A2A\u677F\u8DF3\u8DC3\u6E38\u620F\u9879\u76EE\\ui\\statuspanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B5E05A7-0149-4A22-81AB-2BDE70B33755}|\u65B0\u5EFA\u6A2A\u677F\u8DF3\u8DC3\u6E38\u620F\u9879\u76EE.csproj|solutionrelative:ui\\statuspanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B5E05A7-0149-4A22-81AB-2BDE70B33755}|\u65B0\u5EFA\u6A2A\u677F\u8DF3\u8DC3\u6E38\u620F\u9879\u76EE.csproj|d:\\\u5DE5\u4F5C\u5B66\u4E60\\godot_v4.6.1-stable_mono_win64\\\u9879\u76EE\\\u65B0\u5EFA\u6A2A\u677F\u8DF3\u8DC3\u6E38\u620F\u9879\u76EE\\enemy\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B5E05A7-0149-4A22-81AB-2BDE70B33755}|\u65B0\u5EFA\u6A2A\u677F\u8DF3\u8DC3\u6E38\u620F\u9879\u76EE.csproj|solutionrelative:enemy\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B5E05A7-0149-4A22-81AB-2BDE70B33755}|\u65B0\u5EFA\u6A2A\u677F\u8DF3\u8DC3\u6E38\u620F\u9879\u76EE.csproj|d:\\\u5DE5\u4F5C\u5B66\u4E60\\godot_v4.6.1-stable_mono_win64\\\u9879\u76EE\\\u65B0\u5EFA\u6A2A\u677F\u8DF3\u8DC3\u6E38\u620F\u9879\u76EE\\classes\\entrypoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B5E05A7-0149-4A22-81AB-2BDE70B33755}|\u65B0\u5EFA\u6A2A\u677F\u8DF3\u8DC3\u6E38\u620F\u9879\u76EE.csproj|solutionrelative:classes\\entrypoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B5E05A7-0149-4A22-81AB-2BDE70B33755}|\u65B0\u5EFA\u6A2A\u677F\u8DF3\u8DC3\u6E38\u620F\u9879\u76EE.csproj|d:\\\u5DE5\u4F5C\u5B66\u4E60\\godot_v4.6.1-stable_mono_win64\\\u9879\u76EE\\\u65B0\u5EFA\u6A2A\u677F\u8DF3\u8DC3\u6E38\u620F\u9879\u76EE\\ui\\gameoverscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B5E05A7-0149-4A22-81AB-2BDE70B33755}|\u65B0\u5EFA\u6A2A\u677F\u8DF3\u8DC3\u6E38\u620F\u9879\u76EE.csproj|solutionrelative:ui\\gameoverscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B5E05A7-0149-4A22-81AB-2BDE70B33755}|\u65B0\u5EFA\u6A2A\u677F\u8DF3\u8DC3\u6E38\u620F\u9879\u76EE.csproj|d:\\\u5DE5\u4F5C\u5B66\u4E60\\godot_v4.6.1-stable_mono_win64\\\u9879\u76EE\\\u65B0\u5EFA\u6A2A\u677F\u8DF3\u8DC3\u6E38\u620F\u9879\u76EE\\ui\\gameendscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B5E05A7-0149-4A22-81AB-2BDE70B33755}|\u65B0\u5EFA\u6A2A\u677F\u8DF3\u8DC3\u6E38\u620F\u9879\u76EE.csproj|solutionrelative:ui\\gameendscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 12,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Player.cs",
+              "DocumentMoniker": "D:\\\u5DE5\u4F5C\u5B66\u4E60\\Godot_v4.6.1-stable_mono_win64\\\u9879\u76EE\\\u65B0\u5EFA\u6A2A\u677F\u8DF3\u8DC3\u6E38\u620F\u9879\u76EE\\scripts\\Player.cs",
+              "RelativeDocumentMoniker": "scripts\\Player.cs",
+              "ToolTip": "D:\\\u5DE5\u4F5C\u5B66\u4E60\\Godot_v4.6.1-stable_mono_win64\\\u9879\u76EE\\\u65B0\u5EFA\u6A2A\u677F\u8DF3\u8DC3\u6E38\u620F\u9879\u76EE\\scripts\\Player.cs",
+              "RelativeToolTip": "scripts\\Player.cs",
+              "ViewState": "AgIAAGwCAAAAAAAAAAAAAHYCAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-01T14:51:48.959Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Stats.cs",
+              "DocumentMoniker": "D:\\\u5DE5\u4F5C\u5B66\u4E60\\Godot_v4.6.1-stable_mono_win64\\\u9879\u76EE\\\u65B0\u5EFA\u6A2A\u677F\u8DF3\u8DC3\u6E38\u620F\u9879\u76EE\\classes\\Stats.cs",
+              "RelativeDocumentMoniker": "classes\\Stats.cs",
+              "ToolTip": "D:\\\u5DE5\u4F5C\u5B66\u4E60\\Godot_v4.6.1-stable_mono_win64\\\u9879\u76EE\\\u65B0\u5EFA\u6A2A\u677F\u8DF3\u8DC3\u6E38\u620F\u9879\u76EE\\classes\\Stats.cs",
+              "RelativeToolTip": "classes\\Stats.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADQAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-21T07:22:04.654Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Cave.cs",
+              "DocumentMoniker": "D:\\\u5DE5\u4F5C\u5B66\u4E60\\Godot_v4.6.1-stable_mono_win64\\\u9879\u76EE\\\u65B0\u5EFA\u6A2A\u677F\u8DF3\u8DC3\u6E38\u620F\u9879\u76EE\\worlds\\Cave.cs",
+              "RelativeDocumentMoniker": "worlds\\Cave.cs",
+              "ToolTip": "D:\\\u5DE5\u4F5C\u5B66\u4E60\\Godot_v4.6.1-stable_mono_win64\\\u9879\u76EE\\\u65B0\u5EFA\u6A2A\u677F\u8DF3\u8DC3\u6E38\u620F\u9879\u76EE\\worlds\\Cave.cs",
+              "RelativeToolTip": "worlds\\Cave.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-02T06:53:10.444Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ShakyCamera.cs",
+              "DocumentMoniker": "D:\\\u5DE5\u4F5C\u5B66\u4E60\\Godot_v4.6.1-stable_mono_win64\\\u9879\u76EE\\\u65B0\u5EFA\u6A2A\u677F\u8DF3\u8DC3\u6E38\u620F\u9879\u76EE\\classes\\ShakyCamera.cs",
+              "RelativeDocumentMoniker": "classes\\ShakyCamera.cs",
+              "ToolTip": "D:\\\u5DE5\u4F5C\u5B66\u4E60\\Godot_v4.6.1-stable_mono_win64\\\u9879\u76EE\\\u65B0\u5EFA\u6A2A\u677F\u8DF3\u8DC3\u6E38\u620F\u9879\u76EE\\classes\\ShakyCamera.cs",
+              "RelativeToolTip": "classes\\ShakyCamera.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAADwvxQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-09T11:55:51.637Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Knob.cs",
+              "DocumentMoniker": "D:\\\u5DE5\u4F5C\u5B66\u4E60\\Godot_v4.6.1-stable_mono_win64\\\u9879\u76EE\\\u65B0\u5EFA\u6A2A\u677F\u8DF3\u8DC3\u6E38\u620F\u9879\u76EE\\UI\\Knob.cs",
+              "RelativeDocumentMoniker": "UI\\Knob.cs",
+              "ToolTip": "D:\\\u5DE5\u4F5C\u5B66\u4E60\\Godot_v4.6.1-stable_mono_win64\\\u9879\u76EE\\\u65B0\u5EFA\u6A2A\u677F\u8DF3\u8DC3\u6E38\u620F\u9879\u76EE\\UI\\Knob.cs",
+              "RelativeToolTip": "UI\\Knob.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-08T09:31:52.637Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "SoundManager.cs",
+              "DocumentMoniker": "D:\\\u5DE5\u4F5C\u5B66\u4E60\\Godot_v4.6.1-stable_mono_win64\\\u9879\u76EE\\\u65B0\u5EFA\u6A2A\u677F\u8DF3\u8DC3\u6E38\u620F\u9879\u76EE\\globals\\SoundManager.cs",
+              "RelativeDocumentMoniker": "globals\\SoundManager.cs",
+              "ToolTip": "D:\\\u5DE5\u4F5C\u5B66\u4E60\\Godot_v4.6.1-stable_mono_win64\\\u9879\u76EE\\\u65B0\u5EFA\u6A2A\u677F\u8DF3\u8DC3\u6E38\u620F\u9879\u76EE\\globals\\SoundManager.cs",
+              "RelativeToolTip": "globals\\SoundManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-03T08:58:36.396Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Interactable.cs",
+              "DocumentMoniker": "D:\\\u5DE5\u4F5C\u5B66\u4E60\\Godot_v4.6.1-stable_mono_win64\\\u9879\u76EE\\\u65B0\u5EFA\u6A2A\u677F\u8DF3\u8DC3\u6E38\u620F\u9879\u76EE\\classes\\Interactable.cs",
+              "RelativeDocumentMoniker": "classes\\Interactable.cs",
+              "ToolTip": "D:\\\u5DE5\u4F5C\u5B66\u4E60\\Godot_v4.6.1-stable_mono_win64\\\u9879\u76EE\\\u65B0\u5EFA\u6A2A\u677F\u8DF3\u8DC3\u6E38\u620F\u9879\u76EE\\classes\\Interactable.cs",
+              "RelativeToolTip": "classes\\Interactable.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-12T06:57:50.733Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "SaveStone.cs",
+              "DocumentMoniker": "D:\\\u5DE5\u4F5C\u5B66\u4E60\\Godot_v4.6.1-stable_mono_win64\\\u9879\u76EE\\\u65B0\u5EFA\u6A2A\u677F\u8DF3\u8DC3\u6E38\u620F\u9879\u76EE\\classes\\SaveStone.cs",
+              "RelativeDocumentMoniker": "classes\\SaveStone.cs",
+              "ToolTip": "D:\\\u5DE5\u4F5C\u5B66\u4E60\\Godot_v4.6.1-stable_mono_win64\\\u9879\u76EE\\\u65B0\u5EFA\u6A2A\u677F\u8DF3\u8DC3\u6E38\u620F\u9879\u76EE\\classes\\SaveStone.cs",
+              "RelativeToolTip": "classes\\SaveStone.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-26T10:30:27.956Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PauseScreen.cs",
+              "DocumentMoniker": "D:\\\u5DE5\u4F5C\u5B66\u4E60\\Godot_v4.6.1-stable_mono_win64\\\u9879\u76EE\\\u65B0\u5EFA\u6A2A\u677F\u8DF3\u8DC3\u6E38\u620F\u9879\u76EE\\UI\\PauseScreen.cs",
+              "RelativeDocumentMoniker": "UI\\PauseScreen.cs",
+              "ToolTip": "D:\\\u5DE5\u4F5C\u5B66\u4E60\\Godot_v4.6.1-stable_mono_win64\\\u9879\u76EE\\\u65B0\u5EFA\u6A2A\u677F\u8DF3\u8DC3\u6E38\u620F\u9879\u76EE\\UI\\PauseScreen.cs",
+              "RelativeToolTip": "UI\\PauseScreen.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAmwB4AAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-07T13:17:25.622Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Game.cs",
+              "DocumentMoniker": "D:\\\u5DE5\u4F5C\u5B66\u4E60\\Godot_v4.6.1-stable_mono_win64\\\u9879\u76EE\\\u65B0\u5EFA\u6A2A\u677F\u8DF3\u8DC3\u6E38\u620F\u9879\u76EE\\globals\\Game.cs",
+              "RelativeDocumentMoniker": "globals\\Game.cs",
+              "ToolTip": "D:\\\u5DE5\u4F5C\u5B66\u4E60\\Godot_v4.6.1-stable_mono_win64\\\u9879\u76EE\\\u65B0\u5EFA\u6A2A\u677F\u8DF3\u8DC3\u6E38\u620F\u9879\u76EE\\globals\\Game.cs",
+              "RelativeToolTip": "globals\\Game.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-15T11:49:06.988Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "VolumeSlider.cs",
+              "DocumentMoniker": "D:\\\u5DE5\u4F5C\u5B66\u4E60\\Godot_v4.6.1-stable_mono_win64\\\u9879\u76EE\\\u65B0\u5EFA\u6A2A\u677F\u8DF3\u8DC3\u6E38\u620F\u9879\u76EE\\UI\\VolumeSlider.cs",
+              "RelativeDocumentMoniker": "UI\\VolumeSlider.cs",
+              "ToolTip": "D:\\\u5DE5\u4F5C\u5B66\u4E60\\Godot_v4.6.1-stable_mono_win64\\\u9879\u76EE\\\u65B0\u5EFA\u6A2A\u677F\u8DF3\u8DC3\u6E38\u620F\u9879\u76EE\\UI\\VolumeSlider.cs",
+              "RelativeToolTip": "UI\\VolumeSlider.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-06T10:54:01.063Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Hurtbox.cs",
+              "DocumentMoniker": "D:\\\u5DE5\u4F5C\u5B66\u4E60\\Godot_v4.6.1-stable_mono_win64\\\u9879\u76EE\\\u65B0\u5EFA\u6A2A\u677F\u8DF3\u8DC3\u6E38\u620F\u9879\u76EE\\scripts\\Hurtbox.cs",
+              "RelativeDocumentMoniker": "scripts\\Hurtbox.cs",
+              "ToolTip": "D:\\\u5DE5\u4F5C\u5B66\u4E60\\Godot_v4.6.1-stable_mono_win64\\\u9879\u76EE\\\u65B0\u5EFA\u6A2A\u677F\u8DF3\u8DC3\u6E38\u620F\u9879\u76EE\\scripts\\Hurtbox.cs",
+              "RelativeToolTip": "scripts\\Hurtbox.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAcwBsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-20T11:43:14.406Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Hitbox.cs",
+              "DocumentMoniker": "D:\\\u5DE5\u4F5C\u5B66\u4E60\\Godot_v4.6.1-stable_mono_win64\\\u9879\u76EE\\\u65B0\u5EFA\u6A2A\u677F\u8DF3\u8DC3\u6E38\u620F\u9879\u76EE\\scripts\\Hitbox.cs",
+              "RelativeDocumentMoniker": "scripts\\Hitbox.cs",
+              "ToolTip": "D:\\\u5DE5\u4F5C\u5B66\u4E60\\Godot_v4.6.1-stable_mono_win64\\\u9879\u76EE\\\u65B0\u5EFA\u6A2A\u677F\u8DF3\u8DC3\u6E38\u620F\u9879\u76EE\\scripts\\Hitbox.cs",
+              "RelativeToolTip": "scripts\\Hitbox.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAA4wBsAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-20T11:41:51.237Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "GameOverScreen.cs",
+              "DocumentMoniker": "D:\\\u5DE5\u4F5C\u5B66\u4E60\\Godot_v4.6.1-stable_mono_win64\\\u9879\u76EE\\\u65B0\u5EFA\u6A2A\u677F\u8DF3\u8DC3\u6E38\u620F\u9879\u76EE\\UI\\GameOverScreen.cs",
+              "RelativeDocumentMoniker": "UI\\GameOverScreen.cs",
+              "ToolTip": "D:\\\u5DE5\u4F5C\u5B66\u4E60\\Godot_v4.6.1-stable_mono_win64\\\u9879\u76EE\\\u65B0\u5EFA\u6A2A\u677F\u8DF3\u8DC3\u6E38\u620F\u9879\u76EE\\UI\\GameOverScreen.cs",
+              "RelativeToolTip": "UI\\GameOverScreen.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADEAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-30T07:53:52.993Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "GameEndScreen.cs",
+              "DocumentMoniker": "D:\\\u5DE5\u4F5C\u5B66\u4E60\\Godot_v4.6.1-stable_mono_win64\\\u9879\u76EE\\\u65B0\u5EFA\u6A2A\u677F\u8DF3\u8DC3\u6E38\u620F\u9879\u76EE\\UI\\GameEndScreen.cs",
+              "RelativeDocumentMoniker": "UI\\GameEndScreen.cs",
+              "ToolTip": "D:\\\u5DE5\u4F5C\u5B66\u4E60\\Godot_v4.6.1-stable_mono_win64\\\u9879\u76EE\\\u65B0\u5EFA\u6A2A\u677F\u8DF3\u8DC3\u6E38\u620F\u9879\u76EE\\UI\\GameEndScreen.cs",
+              "RelativeToolTip": "UI\\GameEndScreen.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAIwDkAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-02T07:07:17.828Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Camera.cs",
+              "DocumentMoniker": "D:\\\u5DE5\u4F5C\u5B66\u4E60\\Godot_v4.6.1-stable_mono_win64\\\u9879\u76EE\\\u65B0\u5EFA\u6A2A\u677F\u8DF3\u8DC3\u6E38\u620F\u9879\u76EE\\scripts\\Camera.cs",
+              "RelativeDocumentMoniker": "scripts\\Camera.cs",
+              "ToolTip": "D:\\\u5DE5\u4F5C\u5B66\u4E60\\Godot_v4.6.1-stable_mono_win64\\\u9879\u76EE\\\u65B0\u5EFA\u6A2A\u677F\u8DF3\u8DC3\u6E38\u620F\u9879\u76EE\\scripts\\Camera.cs",
+              "RelativeToolTip": "scripts\\Camera.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-30T07:10:49.921Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "TitleScreen.cs",
+              "DocumentMoniker": "D:\\\u5DE5\u4F5C\u5B66\u4E60\\Godot_v4.6.1-stable_mono_win64\\\u9879\u76EE\\\u65B0\u5EFA\u6A2A\u677F\u8DF3\u8DC3\u6E38\u620F\u9879\u76EE\\UI\\TitleScreen.cs",
+              "RelativeDocumentMoniker": "UI\\TitleScreen.cs",
+              "ToolTip": "D:\\\u5DE5\u4F5C\u5B66\u4E60\\Godot_v4.6.1-stable_mono_win64\\\u9879\u76EE\\\u65B0\u5EFA\u6A2A\u677F\u8DF3\u8DC3\u6E38\u620F\u9879\u76EE\\UI\\TitleScreen.cs",
+              "RelativeToolTip": "UI\\TitleScreen.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-27T08:17:05.619Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "World.cs",
+              "DocumentMoniker": "D:\\\u5DE5\u4F5C\u5B66\u4E60\\Godot_v4.6.1-stable_mono_win64\\\u9879\u76EE\\\u65B0\u5EFA\u6A2A\u677F\u8DF3\u8DC3\u6E38\u620F\u9879\u76EE\\scripts\\World.cs",
+              "RelativeDocumentMoniker": "scripts\\World.cs",
+              "ToolTip": "D:\\\u5DE5\u4F5C\u5B66\u4E60\\Godot_v4.6.1-stable_mono_win64\\\u9879\u76EE\\\u65B0\u5EFA\u6A2A\u677F\u8DF3\u8DC3\u6E38\u620F\u9879\u76EE\\scripts\\World.cs",
+              "RelativeToolTip": "scripts\\World.cs",
+              "ViewState": "AgIAADoAAAAAAAAAAAAQwEYAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-19T12:02:38.534Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Teleporter.cs",
+              "DocumentMoniker": "D:\\\u5DE5\u4F5C\u5B66\u4E60\\Godot_v4.6.1-stable_mono_win64\\\u9879\u76EE\\\u65B0\u5EFA\u6A2A\u677F\u8DF3\u8DC3\u6E38\u620F\u9879\u76EE\\classes\\Teleporter.cs",
+              "RelativeDocumentMoniker": "classes\\Teleporter.cs",
+              "ToolTip": "D:\\\u5DE5\u4F5C\u5B66\u4E60\\Godot_v4.6.1-stable_mono_win64\\\u9879\u76EE\\\u65B0\u5EFA\u6A2A\u677F\u8DF3\u8DC3\u6E38\u620F\u9879\u76EE\\classes\\Teleporter.cs",
+              "RelativeToolTip": "classes\\Teleporter.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAowA4AAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-15T07:02:07.869Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "StatusPanel.cs",
+              "DocumentMoniker": "D:\\\u5DE5\u4F5C\u5B66\u4E60\\Godot_v4.6.1-stable_mono_win64\\\u9879\u76EE\\\u65B0\u5EFA\u6A2A\u677F\u8DF3\u8DC3\u6E38\u620F\u9879\u76EE\\UI\\StatusPanel.cs",
+              "RelativeDocumentMoniker": "UI\\StatusPanel.cs",
+              "ToolTip": "D:\\\u5DE5\u4F5C\u5B66\u4E60\\Godot_v4.6.1-stable_mono_win64\\\u9879\u76EE\\\u65B0\u5EFA\u6A2A\u677F\u8DF3\u8DC3\u6E38\u620F\u9879\u76EE\\UI\\StatusPanel.cs",
+              "RelativeToolTip": "UI\\StatusPanel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-06T08:29:55.129Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "StateMachine.cs",
+              "DocumentMoniker": "D:\\\u5DE5\u4F5C\u5B66\u4E60\\Godot_v4.6.1-stable_mono_win64\\\u9879\u76EE\\\u65B0\u5EFA\u6A2A\u677F\u8DF3\u8DC3\u6E38\u620F\u9879\u76EE\\classes\\StateMachine.cs",
+              "RelativeDocumentMoniker": "classes\\StateMachine.cs",
+              "ToolTip": "D:\\\u5DE5\u4F5C\u5B66\u4E60\\Godot_v4.6.1-stable_mono_win64\\\u9879\u76EE\\\u65B0\u5EFA\u6A2A\u677F\u8DF3\u8DC3\u6E38\u620F\u9879\u76EE\\classes\\StateMachine.cs",
+              "RelativeToolTip": "classes\\StateMachine.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-04T14:35:07.888Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Enemy.cs",
+              "DocumentMoniker": "D:\\\u5DE5\u4F5C\u5B66\u4E60\\Godot_v4.6.1-stable_mono_win64\\\u9879\u76EE\\\u65B0\u5EFA\u6A2A\u677F\u8DF3\u8DC3\u6E38\u620F\u9879\u76EE\\Enemy\\Enemy.cs",
+              "RelativeDocumentMoniker": "Enemy\\Enemy.cs",
+              "ToolTip": "D:\\\u5DE5\u4F5C\u5B66\u4E60\\Godot_v4.6.1-stable_mono_win64\\\u9879\u76EE\\\u65B0\u5EFA\u6A2A\u677F\u8DF3\u8DC3\u6E38\u620F\u9879\u76EE\\Enemy\\Enemy.cs",
+              "RelativeToolTip": "Enemy\\Enemy.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAAswDYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-06T15:11:13.375Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Boar.cs",
+              "DocumentMoniker": "D:\\\u5DE5\u4F5C\u5B66\u4E60\\Godot_v4.6.1-stable_mono_win64\\\u9879\u76EE\\\u65B0\u5EFA\u6A2A\u677F\u8DF3\u8DC3\u6E38\u620F\u9879\u76EE\\Enemy\\Boar.cs",
+              "RelativeDocumentMoniker": "Enemy\\Boar.cs",
+              "ToolTip": "D:\\\u5DE5\u4F5C\u5B66\u4E60\\Godot_v4.6.1-stable_mono_win64\\\u9879\u76EE\\\u65B0\u5EFA\u6A2A\u677F\u8DF3\u8DC3\u6E38\u620F\u9879\u76EE\\Enemy\\Boar.cs",
+              "RelativeToolTip": "Enemy\\Boar.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAiwNMAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-13T07:29:26.935Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "EntryPoint.cs",
+              "DocumentMoniker": "D:\\\u5DE5\u4F5C\u5B66\u4E60\\Godot_v4.6.1-stable_mono_win64\\\u9879\u76EE\\\u65B0\u5EFA\u6A2A\u677F\u8DF3\u8DC3\u6E38\u620F\u9879\u76EE\\classes\\EntryPoint.cs",
+              "RelativeDocumentMoniker": "classes\\EntryPoint.cs",
+              "ToolTip": "D:\\\u5DE5\u4F5C\u5B66\u4E60\\Godot_v4.6.1-stable_mono_win64\\\u9879\u76EE\\\u65B0\u5EFA\u6A2A\u677F\u8DF3\u8DC3\u6E38\u620F\u9879\u76EE\\classes\\EntryPoint.cs",
+              "RelativeToolTip": "classes\\EntryPoint.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-15T08:52:41.898Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Damage.cs",
+              "DocumentMoniker": "D:\\\u5DE5\u4F5C\u5B66\u4E60\\Godot_v4.6.1-stable_mono_win64\\\u9879\u76EE\\\u65B0\u5EFA\u6A2A\u677F\u8DF3\u8DC3\u6E38\u620F\u9879\u76EE\\classes\\Damage.cs",
+              "RelativeDocumentMoniker": "classes\\Damage.cs",
+              "ToolTip": "D:\\\u5DE5\u4F5C\u5B66\u4E60\\Godot_v4.6.1-stable_mono_win64\\\u9879\u76EE\\\u65B0\u5EFA\u6A2A\u677F\u8DF3\u8DC3\u6E38\u620F\u9879\u76EE\\classes\\Damage.cs",
+              "RelativeToolTip": "classes\\Damage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-21T08:26:29.014Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

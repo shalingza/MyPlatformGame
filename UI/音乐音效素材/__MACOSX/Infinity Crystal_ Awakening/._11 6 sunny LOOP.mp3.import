@@ -1,0 +1,18 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bgoeihv8csn1d"
+valid=false
+
+[deps]
+
+source_file="res://UI/音乐音效素材/__MACOSX/Infinity Crystal_ Awakening/._11 6 sunny LOOP.mp3"
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

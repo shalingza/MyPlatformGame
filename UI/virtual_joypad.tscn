@@ -1,0 +1,112 @@
+[gd_scene format=3 uid="uid://dsd8m1rwgtpl8"]
+
+[ext_resource type="Texture2D" uid="uid://cuklflkwh0m80" path="res://Legacy-Fantasy - High Forest 2.0/Legacy-Fantasy - High Forest 2.3/HUD/Base-01.png" id="1_vwh64"]
+[ext_resource type="Script" uid="uid://pqej3l25g12o" path="res://UI/Knob.cs" id="2_5o1g3"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_5o1g3"]
+atlas = ExtResource("1_vwh64")
+region = Rect2(140, 252, 24, 24)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_v74l6"]
+atlas = ExtResource("1_vwh64")
+region = Rect2(140, 108, 24, 24)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_p135x"]
+atlas = ExtResource("1_vwh64")
+region = Rect2(140, 156, 24, 24)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_royat"]
+atlas = ExtResource("1_vwh64")
+region = Rect2(140, 60, 24, 24)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_r15iq"]
+atlas = ExtResource("1_vwh64")
+region = Rect2(374, 6, 52, 52)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1xlaq"]
+atlas = ExtResource("1_vwh64")
+region = Rect2(50, 210, 12, 12)
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_5tayw"]
+radius = 14.0
+
+[node name="VirtualJoypad" type="Control" unique_id=2034029882]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+metadata/_edit_horizontal_guides_ = [150.0]
+
+[node name="Actions" type="Control" parent="." unique_id=810021511]
+layout_mode = 1
+anchors_preset = 3
+anchor_left = 1.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -60.0
+offset_top = -67.0
+offset_right = -60.0
+offset_bottom = -67.0
+grow_horizontal = 0
+grow_vertical = 0
+
+[node name="TouchScreenButton" type="TouchScreenButton" parent="Actions" unique_id=31087922]
+position = Vector2(6, -12)
+texture_normal = SubResource("AtlasTexture_5o1g3")
+action = "jump"
+visibility_mode = 1
+
+[node name="TouchScreenButton2" type="TouchScreenButton" parent="Actions" unique_id=126014103]
+position = Vector2(-30, -12)
+texture_normal = SubResource("AtlasTexture_v74l6")
+action = "attack"
+visibility_mode = 1
+
+[node name="TouchScreenButton3" type="TouchScreenButton" parent="Actions" unique_id=1716864922]
+position = Vector2(-12, 5)
+texture_normal = SubResource("AtlasTexture_p135x")
+action = "slide"
+visibility_mode = 1
+
+[node name="TouchScreenButton4" type="TouchScreenButton" parent="Actions" unique_id=1823950280]
+position = Vector2(-12, -29)
+texture_normal = SubResource("AtlasTexture_royat")
+action = "interact"
+visibility_mode = 1
+
+[node name="Stick" type="Control" parent="." unique_id=1748853213]
+layout_mode = 1
+anchors_preset = 2
+anchor_top = 1.0
+anchor_bottom = 1.0
+offset_left = 40.0
+offset_top = -92.0
+offset_right = 40.0
+offset_bottom = -92.0
+grow_vertical = 0
+
+[node name="knob" type="TouchScreenButton" parent="Stick" unique_id=239165521]
+texture_normal = SubResource("AtlasTexture_r15iq")
+visibility_mode = 1
+script = ExtResource("2_5o1g3")
+
+[node name="Pause" type="Control" parent="." unique_id=1606358842]
+layout_mode = 1
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -17.0
+offset_top = 11.0
+offset_right = -17.0
+offset_bottom = 11.0
+grow_horizontal = 0
+
+[node name="TouchScreenButton" type="TouchScreenButton" parent="Pause" unique_id=1766045727]
+position = Vector2(-6, -6)
+texture_normal = SubResource("AtlasTexture_1xlaq")
+shape = SubResource("CircleShape2D_5tayw")
+action = "pause"
+visibility_mode = 1

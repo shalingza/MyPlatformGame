@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://bsi7yk8ux7fr2"
+path="res://.godot/imported/18 trust LOOP.ogg-31189a404b6e8f092f5180e3d1c050b2.oggvorbisstr"
+
+[deps]
+
+source_file="res://bgm/Infinity Crystal_ Awakening oggs/18 trust LOOP.ogg"
+dest_files=["res://.godot/imported/18 trust LOOP.ogg-31189a404b6e8f092f5180e3d1c050b2.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

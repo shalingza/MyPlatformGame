@@ -1,0 +1,43 @@
+[gd_scene format=3 uid="uid://i5tsk0le0dvb"]
+
+[ext_resource type="Script" uid="uid://s4qeed4odfdn" path="res://classes/StateMachine.cs" id="1_2pb1h"]
+[ext_resource type="Script" uid="uid://csjld32wngmap" path="res://Enemy/Enemy.cs" id="1_px1sc"]
+[ext_resource type="Script" uid="uid://bvanaj6xd3ht6" path="res://scripts/Hitbox.cs" id="2_am0pq"]
+[ext_resource type="Script" uid="uid://ojk4obxx6ula" path="res://scripts/Hurtbox.cs" id="3_eqilm"]
+[ext_resource type="Script" uid="uid://c8bmgsu011upq" path="res://classes/Stats.cs" id="5_ncf7h"]
+
+[node name="Enemy" type="CharacterBody2D" unique_id=44255389 node_paths=PackedStringArray("graphics", "animationPlayer", "statemachine") groups=["enemies"]]
+collision_layer = 4
+collision_mask = 3
+script = ExtResource("1_px1sc")
+graphics = NodePath("Graphics")
+animationPlayer = NodePath("AnimationPlayer")
+statemachine = NodePath("StateMachine")
+
+[node name="Graphics" type="Node2D" parent="." unique_id=1471106401]
+
+[node name="Sprite2D" type="Sprite2D" parent="Graphics" unique_id=326450205]
+
+[node name="hitbox" type="Area2D" parent="Graphics" unique_id=1338113482]
+collision_layer = 0
+collision_mask = 8
+script = ExtResource("2_am0pq")
+
+[node name="hurtbox" type="Area2D" parent="Graphics" unique_id=736241388]
+collision_layer = 16
+collision_mask = 0
+script = ExtResource("3_eqilm")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=190053009]
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="." unique_id=1756618333]
+
+[node name="StateMachine" type="Node" parent="." unique_id=2071166313]
+script = ExtResource("1_2pb1h")
+metadata/_custom_type_script = "uid://s4qeed4odfdn"
+
+[node name="Stats" type="Node" parent="." unique_id=1195295265]
+script = ExtResource("5_ncf7h")
+maxhealth = 5
+
+[connection signal="Hurt" from="Graphics/hurtbox" to="Graphics/hurtbox" method="OnHurtboxHurt"]

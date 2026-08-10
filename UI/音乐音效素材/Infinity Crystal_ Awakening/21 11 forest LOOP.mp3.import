@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://b37v6spet2qs1"
+path="res://.godot/imported/21 11 forest LOOP.mp3-f765ba4a92bac50568a238abbb4e68dc.mp3str"
+
+[deps]
+
+source_file="res://UI/音乐音效素材/Infinity Crystal_ Awakening/21 11 forest LOOP.mp3"
+dest_files=["res://.godot/imported/21 11 forest LOOP.mp3-f765ba4a92bac50568a238abbb4e68dc.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

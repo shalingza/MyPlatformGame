@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://c5d56fjwdetr5"
+path="res://.godot/imported/21 marching LOOP.ogg-ee388477cbbf7548da3398c8d9abf19a.oggvorbisstr"
+
+[deps]
+
+source_file="res://UI/音乐音效素材/Infinity Crystal_ Awakening oggs/21 marching LOOP.ogg"
+dest_files=["res://.godot/imported/21 marching LOOP.ogg-ee388477cbbf7548da3398c8d9abf19a.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

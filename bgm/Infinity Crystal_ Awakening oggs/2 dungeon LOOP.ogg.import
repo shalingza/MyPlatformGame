@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://bldt8k0kcr1oy"
+path="res://.godot/imported/2 dungeon LOOP.ogg-6e30f267419fffd0b499fa1965dc8d7d.oggvorbisstr"
+
+[deps]
+
+source_file="res://bgm/Infinity Crystal_ Awakening oggs/2 dungeon LOOP.ogg"
+dest_files=["res://.godot/imported/2 dungeon LOOP.ogg-6e30f267419fffd0b499fa1965dc8d7d.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

@@ -1,0 +1,18 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://c77ippn0ugyap"
+valid=false
+
+[deps]
+
+source_file="res://bgm/Infinity Crystal_ Awakening/._33 17 nectar LOOP.mp3"
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

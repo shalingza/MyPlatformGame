@@ -1,0 +1,109 @@
+[gd_scene format=3 uid="uid://b7w48tr6ds50y"]
+
+[ext_resource type="Script" uid="uid://cgslmi1rvhaf4" path="res://UI/GameOverScreen.cs" id="1_50k4i"]
+[ext_resource type="AudioStream" uid="uid://b6sn0dg5tg7fu" path="res://bgm/Infinity Crystal_ Awakening oggs/15 game over INITIAL.ogg" id="2_ftyas"]
+
+[sub_resource type="Animation" id="Animation_50k4i"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("ColorRect:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Color(1, 1, 1, 0)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Label:visible_ratio")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [0.0]
+}
+
+[sub_resource type="Animation" id="Animation_ftyas"]
+resource_name = "enter"
+length = 1.5
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("ColorRect:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 1.5),
+"transitions": PackedFloat32Array(0.48296815, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 0), Color(1, 1, 1, 1)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Label:visible_ratio")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 1.3333334),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [0.0, 1.0]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_yjwqv"]
+_data = {
+&"RESET": SubResource("Animation_50k4i"),
+&"enter": SubResource("Animation_ftyas")
+}
+
+[node name="GameOverScreen" type="Control" unique_id=388964043 node_paths=PackedStringArray("animationplayer")]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_50k4i")
+animationplayer = NodePath("AnimationPlayer")
+bgm = ExtResource("2_ftyas")
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=2021664508]
+modulate = Color(1, 1, 1, 0)
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0, 0, 0, 0.80784315)
+
+[node name="Label" type="Label" parent="." unique_id=2134023515]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_color = Color(0.45, 0, 0.022500085, 1)
+theme_override_colors/font_shadow_color = Color(0.29, 0.19256, 0.1682, 0.21568628)
+theme_override_colors/font_outline_color = Color(1, 1, 1, 0)
+theme_override_font_sizes/font_size = 36
+text = "GameOver
+Try Again?"
+horizontal_alignment = 1
+vertical_alignment = 1
+visible_characters = 0
+visible_characters_behavior = 1
+visible_ratio = 0.0
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="." unique_id=268686512]
+libraries/ = SubResource("AnimationLibrary_yjwqv")
+autoplay = &"enter"

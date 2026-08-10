@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://csqju6yv2brqn"
+path="res://.godot/imported/18 trust INITIAL.ogg-4415d71264b5b582b3e617e619bfc8a2.oggvorbisstr"
+
+[deps]
+
+source_file="res://UI/音乐音效素材/Infinity Crystal_ Awakening oggs/18 trust INITIAL.ogg"
+dest_files=["res://.godot/imported/18 trust INITIAL.ogg-4415d71264b5b582b3e617e619bfc8a2.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

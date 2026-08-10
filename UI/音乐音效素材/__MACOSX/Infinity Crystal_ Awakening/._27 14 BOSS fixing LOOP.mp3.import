@@ -1,0 +1,18 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://cwhlkxx0t4uhl"
+valid=false
+
+[deps]
+
+source_file="res://UI/音乐音效素材/__MACOSX/Infinity Crystal_ Awakening/._27 14 BOSS fixing LOOP.mp3"
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

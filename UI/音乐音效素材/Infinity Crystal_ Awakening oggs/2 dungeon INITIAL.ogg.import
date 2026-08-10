@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://db2q6xbsotikd"
+path="res://.godot/imported/2 dungeon INITIAL.ogg-35c66d75b819b82293e501ae56393dbc.oggvorbisstr"
+
+[deps]
+
+source_file="res://UI/音乐音效素材/Infinity Crystal_ Awakening oggs/2 dungeon INITIAL.ogg"
+dest_files=["res://.godot/imported/2 dungeon INITIAL.ogg-35c66d75b819b82293e501ae56393dbc.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

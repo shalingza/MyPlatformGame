@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://b5ahfumbxt64e"
+path="res://.godot/imported/22 romance LOOP.ogg-1efaba2efd43a983abbc883ce979d62b.oggvorbisstr"
+
+[deps]
+
+source_file="res://UI/音乐音效素材/Infinity Crystal_ Awakening oggs/22 romance LOOP.ogg"
+dest_files=["res://.godot/imported/22 romance LOOP.ogg-1efaba2efd43a983abbc883ce979d62b.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

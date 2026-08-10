@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://cmmetrqjwyhru"
+path="res://.godot/imported/14 8 victory INITIAL.mp3-509cf6eaa8ea3ed969cc0f13b7a61450.mp3str"
+
+[deps]
+
+source_file="res://UI/音乐音效素材/Infinity Crystal_ Awakening/14 8 victory INITIAL.mp3"
+dest_files=["res://.godot/imported/14 8 victory INITIAL.mp3-509cf6eaa8ea3ed969cc0f13b7a61450.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

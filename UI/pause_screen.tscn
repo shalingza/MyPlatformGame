@@ -1,0 +1,109 @@
+[gd_scene format=3 uid="uid://cmtvw3k8llojd"]
+
+[ext_resource type="PackedScene" uid="uid://bil623otlinih" path="res://UI/volume_slider.tscn" id="1_k1q3y"]
+[ext_resource type="Theme" uid="uid://os2npxk63d75" path="res://UI/maintheme.tres" id="1_pqas3"]
+[ext_resource type="Script" uid="uid://b5458u80ubpp1" path="res://UI/PauseScreen.cs" id="2_4pmby"]
+
+[node name="PauseScreen" type="Control" unique_id=1251087403 node_paths=PackedStringArray("resume")]
+process_mode = 2
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = -1.0
+offset_bottom = -1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme = ExtResource("1_pqas3")
+script = ExtResource("2_4pmby")
+resume = NodePath("VBoxContainer/Actions/VBoxContainer/Resume")
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=1554698416]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0, 0, 0, 0.57254905)
+
+[node name="VBoxContainer" type="VBoxContainer" parent="." unique_id=1396896597]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Label" type="Label" parent="VBoxContainer" unique_id=1034830005]
+layout_mode = 2
+text = "暂停"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="AudioSettings" type="PanelContainer" parent="VBoxContainer" unique_id=665501867]
+layout_mode = 2
+
+[node name="GridContainer" type="GridContainer" parent="VBoxContainer/AudioSettings" unique_id=419792120]
+layout_mode = 2
+columns = 2
+
+[node name="Label" type="Label" parent="VBoxContainer/AudioSettings/GridContainer" unique_id=1693072130]
+layout_mode = 2
+text = "主音量"
+horizontal_alignment = 2
+vertical_alignment = 1
+
+[node name="VolumeSlider" parent="VBoxContainer/AudioSettings/GridContainer" unique_id=472846028 instance=ExtResource("1_k1q3y")]
+custom_minimum_size = Vector2(128, 0)
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 4
+
+[node name="Label2" type="Label" parent="VBoxContainer/AudioSettings/GridContainer" unique_id=2028164998]
+layout_mode = 2
+text = "音乐"
+horizontal_alignment = 2
+vertical_alignment = 1
+
+[node name="VolumeSlider2" parent="VBoxContainer/AudioSettings/GridContainer" unique_id=2098288540 instance=ExtResource("1_k1q3y")]
+custom_minimum_size = Vector2(128, 0)
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 4
+bus = &"Bgm"
+
+[node name="Label3" type="Label" parent="VBoxContainer/AudioSettings/GridContainer" unique_id=1855113274]
+layout_mode = 2
+text = "音效"
+horizontal_alignment = 2
+vertical_alignment = 1
+
+[node name="VolumeSlider3" parent="VBoxContainer/AudioSettings/GridContainer" unique_id=1741158527 instance=ExtResource("1_k1q3y")]
+custom_minimum_size = Vector2(128, 0)
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 4
+bus = &"Sfx"
+
+[node name="Actions" type="PanelContainer" parent="VBoxContainer" unique_id=246601297]
+layout_mode = 2
+
+[node name="VBoxContainer" type="VBoxContainer" parent="VBoxContainer/Actions" unique_id=938747955]
+layout_mode = 2
+alignment = 1
+
+[node name="Resume" type="Button" parent="VBoxContainer/Actions/VBoxContainer" unique_id=997267201]
+layout_mode = 2
+theme_override_font_sizes/font_size = 12
+text = "继续游戏"
+
+[node name="Quit" type="Button" parent="VBoxContainer/Actions/VBoxContainer" unique_id=2142905625]
+layout_mode = 2
+theme_override_font_sizes/font_size = 12
+text = "退出游戏"
+
+[connection signal="pressed" from="VBoxContainer/Actions/VBoxContainer/Resume" to="." method="OnResumePressed"]
+[connection signal="pressed" from="VBoxContainer/Actions/VBoxContainer/Quit" to="." method="OnQuitPressed"]

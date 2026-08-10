@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://dx02e0c2t0506"
+path="res://.godot/imported/7 battle LOOP.ogg-bf658988834f04ceef0e78828207919b.oggvorbisstr"
+
+[deps]
+
+source_file="res://UI/音乐音效素材/Infinity Crystal_ Awakening oggs/7 battle LOOP.ogg"
+dest_files=["res://.godot/imported/7 battle LOOP.ogg-bf658988834f04ceef0e78828207919b.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

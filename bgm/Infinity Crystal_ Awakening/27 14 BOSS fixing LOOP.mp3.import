@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://dyo2h8niva81t"
+path="res://.godot/imported/27 14 BOSS fixing LOOP.mp3-b28ed0e8b34f4e7b7c32c3d2c81d2f5c.mp3str"
+
+[deps]
+
+source_file="res://bgm/Infinity Crystal_ Awakening/27 14 BOSS fixing LOOP.mp3"
+dest_files=["res://.godot/imported/27 14 BOSS fixing LOOP.mp3-b28ed0e8b34f4e7b7c32c3d2c81d2f5c.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

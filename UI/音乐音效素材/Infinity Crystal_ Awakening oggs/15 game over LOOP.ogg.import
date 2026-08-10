@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://blqb75rmv42gq"
+path="res://.godot/imported/15 game over LOOP.ogg-6c7f87343f83cb1d693b511a0b9f8aab.oggvorbisstr"
+
+[deps]
+
+source_file="res://UI/音乐音效素材/Infinity Crystal_ Awakening oggs/15 game over LOOP.ogg"
+dest_files=["res://.godot/imported/15 game over LOOP.ogg-6c7f87343f83cb1d693b511a0b9f8aab.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

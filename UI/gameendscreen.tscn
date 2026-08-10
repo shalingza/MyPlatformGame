@@ -1,0 +1,34 @@
+[gd_scene format=3 uid="uid://bfu4cgrqqjtem"]
+
+[ext_resource type="Script" uid="uid://bnd0bh5hc1ff2" path="res://UI/GameEndScreen.cs" id="1_4kjg1"]
+[ext_resource type="AudioStream" uid="uid://cm6b5koqyn2yv" path="res://bgm/Infinity Crystal_ Awakening oggs/8 victory LOOP.ogg" id="2_hi1sy"]
+
+[node name="gameendscreen" type="Control" unique_id=345495536 node_paths=PackedStringArray("label")]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_4kjg1")
+label = NodePath("Label")
+bgm = ExtResource("2_hi1sy")
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=1176459716]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0, 0, 0, 1)
+
+[node name="Label" type="Label" parent="." unique_id=457450094]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+horizontal_alignment = 1
+vertical_alignment = 1

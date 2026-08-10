@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://beqcb15axh8pg"
+path="res://.godot/imported/14 BOSS y INITIAL.ogg-6e656d8f72d96d08f88ed7d348ea1228.oggvorbisstr"
+
+[deps]
+
+source_file="res://UI/音乐音效素材/Infinity Crystal_ Awakening oggs/14 BOSS y INITIAL.ogg"
+dest_files=["res://.godot/imported/14 BOSS y INITIAL.ogg-6e656d8f72d96d08f88ed7d348ea1228.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

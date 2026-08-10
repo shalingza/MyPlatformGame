@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://rfxm7g25k63x"
+path="res://.godot/imported/4 town INITIAL.ogg-b3b6924b9bb3881eb9fe55415ac56815.oggvorbisstr"
+
+[deps]
+
+source_file="res://bgm/Infinity Crystal_ Awakening oggs/4 town INITIAL.ogg"
+dest_files=["res://.godot/imported/4 town INITIAL.ogg-b3b6924b9bb3881eb9fe55415ac56815.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

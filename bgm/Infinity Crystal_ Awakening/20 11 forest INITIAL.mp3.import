@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bv4qw671ng24d"
+path="res://.godot/imported/20 11 forest INITIAL.mp3-278fca480113a73cec9f685dd4cfdaab.mp3str"
+
+[deps]
+
+source_file="res://bgm/Infinity Crystal_ Awakening/20 11 forest INITIAL.mp3"
+dest_files=["res://.godot/imported/20 11 forest INITIAL.mp3-278fca480113a73cec9f685dd4cfdaab.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

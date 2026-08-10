@@ -1,0 +1,18 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bqe38xyby74m7"
+valid=false
+
+[deps]
+
+source_file="res://bgm/Infinity Crystal_ Awakening/._19 10 world map LOOP.mp3"
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://dfor765kj7it5"
+path="res://.godot/imported/6 sunny LOOP.ogg-dd69d4099bc099a963cf79705e652ec9.oggvorbisstr"
+
+[deps]
+
+source_file="res://UI/音乐音效素材/Infinity Crystal_ Awakening oggs/6 sunny LOOP.ogg"
+dest_files=["res://.godot/imported/6 sunny LOOP.ogg-dd69d4099bc099a963cf79705e652ec9.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

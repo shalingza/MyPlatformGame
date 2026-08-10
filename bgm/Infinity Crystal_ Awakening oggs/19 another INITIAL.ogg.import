@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://dp00r413o00m6"
+path="res://.godot/imported/19 another INITIAL.ogg-b1dc2d1f08d39844a18cf077dd15d863.oggvorbisstr"
+
+[deps]
+
+source_file="res://bgm/Infinity Crystal_ Awakening oggs/19 another INITIAL.ogg"
+dest_files=["res://.godot/imported/19 another INITIAL.ogg-b1dc2d1f08d39844a18cf077dd15d863.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

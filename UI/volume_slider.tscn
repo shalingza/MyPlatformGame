@@ -1,0 +1,18 @@
+[gd_scene format=3 uid="uid://bil623otlinih"]
+
+[ext_resource type="Theme" uid="uid://os2npxk63d75" path="res://UI/maintheme.tres" id="1_bgu55"]
+[ext_resource type="Script" uid="uid://c18iqeqt2udpm" path="res://UI/VolumeSlider.cs" id="2_6q1oc"]
+[ext_resource type="AudioStream" uid="uid://bowxduquhlqxw" path="res://bgm/Infinity Crystal_ Awakening oggs/12 heart LOOP.ogg" id="3_47v1w"]
+
+[node name="VolumeSlider" type="HSlider" unique_id=472846028 node_paths=PackedStringArray("bgmplayer")]
+offset_right = 224.0
+offset_bottom = 16.0
+theme = ExtResource("1_bgu55")
+max_value = 1.0
+step = 0.1
+value = 0.5
+script = ExtResource("2_6q1oc")
+bgmplayer = NodePath("AudioStreamPlayer")
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="." unique_id=1957526426]
+stream = ExtResource("3_47v1w")

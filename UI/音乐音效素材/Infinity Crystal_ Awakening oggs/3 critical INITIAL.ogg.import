@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://nvxpp41ijmph"
+path="res://.godot/imported/3 critical INITIAL.ogg-5188e4d84d5910e12bfa150357bbb706.oggvorbisstr"
+
+[deps]
+
+source_file="res://UI/音乐音效素材/Infinity Crystal_ Awakening oggs/3 critical INITIAL.ogg"
+dest_files=["res://.godot/imported/3 critical INITIAL.ogg-5188e4d84d5910e12bfa150357bbb706.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

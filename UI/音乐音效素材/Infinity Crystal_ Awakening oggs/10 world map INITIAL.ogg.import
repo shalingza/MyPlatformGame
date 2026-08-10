@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://bxj7ymv56ly2a"
+path="res://.godot/imported/10 world map INITIAL.ogg-5f4a2f327a21d7cfc5136b5b13ffbad6.oggvorbisstr"
+
+[deps]
+
+source_file="res://UI/音乐音效素材/Infinity Crystal_ Awakening oggs/10 world map INITIAL.ogg"
+dest_files=["res://.godot/imported/10 world map INITIAL.ogg-5f4a2f327a21d7cfc5136b5b13ffbad6.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

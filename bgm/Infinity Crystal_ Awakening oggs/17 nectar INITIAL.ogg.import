@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://d3nj2djjf3g38"
+path="res://.godot/imported/17 nectar INITIAL.ogg-91313d527c26238462820b20396b98f2.oggvorbisstr"
+
+[deps]
+
+source_file="res://bgm/Infinity Crystal_ Awakening oggs/17 nectar INITIAL.ogg"
+dest_files=["res://.godot/imported/17 nectar INITIAL.ogg-91313d527c26238462820b20396b98f2.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

@@ -1,0 +1,63 @@
+[gd_scene format=3 uid="uid://dytjrw12jswfb"]
+
+[ext_resource type="AudioStream" uid="uid://b3uxcrlhxnay2" path="res://bgm/07_human_atk_sword_1.wav" id="1_8srb7"]
+[ext_resource type="Script" uid="uid://c4jkddoh2dhoc" path="res://globals/SoundManager.cs" id="1_tfwxo"]
+[ext_resource type="AudioStream" uid="uid://cvpeh4k6shu7u" path="res://bgm/12_human_jump_1.wav" id="2_tfwxo"]
+[ext_resource type="AudioStream" uid="uid://b5wivl5dcoy0y" path="res://bgm/07_human_atk_sword_2.wav" id="3_d23r7"]
+[ext_resource type="AudioStream" uid="uid://bndfia34siyea" path="res://bgm/07_human_atk_sword_3.wav" id="4_nkb21"]
+[ext_resource type="AudioStream" uid="uid://dtpyxb1v84lvm" path="res://bgm/kenney_impact-sounds/Audio/impactGlass_heavy_000.ogg" id="4_yqr7p"]
+[ext_resource type="AudioStream" uid="uid://dq1jo2ty0kqq4" path="res://bgm/kenney_impact-sounds/Audio/impactMetal_medium_004.ogg" id="5_61b4e"]
+[ext_resource type="AudioStream" uid="uid://bgwjah6allitk" path="res://bgm/kenney_impact-sounds/Audio/impactGlass_medium_003.ogg" id="5_nkb21"]
+[ext_resource type="AudioStream" uid="uid://cd1n1p53mhua0" path="res://bgm/kenney_impact-sounds/Audio/impactBell_heavy_003.ogg" id="6_61b4e"]
+
+[node name="SoundManager" type="Node" unique_id=1847399998 node_paths=PackedStringArray("sfx", "bgmplayer")]
+process_mode = 3
+script = ExtResource("1_tfwxo")
+sfx = NodePath("SFX")
+bgmplayer = NodePath("Bgmplayer")
+
+[node name="SFX" type="Node" parent="." unique_id=1666804322]
+
+[node name="Attack1" type="AudioStreamPlayer" parent="SFX" unique_id=467553576]
+stream = ExtResource("1_8srb7")
+pitch_scale = 1.5
+bus = &"Sfx"
+
+[node name="Attack2" type="AudioStreamPlayer" parent="SFX" unique_id=335482256]
+stream = ExtResource("3_d23r7")
+pitch_scale = 1.5
+bus = &"Sfx"
+
+[node name="Attack3" type="AudioStreamPlayer" parent="SFX" unique_id=1686244045]
+stream = ExtResource("4_nkb21")
+pitch_scale = 1.5
+bus = &"Sfx"
+
+[node name="Death" type="AudioStreamPlayer" parent="SFX" unique_id=416662716]
+stream = ExtResource("5_nkb21")
+pitch_scale = 0.21
+bus = &"Sfx"
+
+[node name="Jump" type="AudioStreamPlayer" parent="SFX" unique_id=152642651]
+stream = ExtResource("2_tfwxo")
+volume_db = 1.825
+pitch_scale = 0.84
+bus = &"Sfx"
+
+[node name="UIPress" type="AudioStreamPlayer" parent="SFX" unique_id=364907699]
+stream = ExtResource("4_yqr7p")
+bus = &"Sfx"
+
+[node name="UIFocus" type="AudioStreamPlayer" parent="SFX" unique_id=1362328726]
+stream = ExtResource("5_61b4e")
+pitch_scale = 1.23
+bus = &"Sfx"
+
+[node name="Save" type="AudioStreamPlayer" parent="SFX" unique_id=172148945]
+stream = ExtResource("6_61b4e")
+volume_db = 1.078
+pitch_scale = 0.25
+bus = &"Sfx"
+
+[node name="Bgmplayer" type="AudioStreamPlayer" parent="." unique_id=1690850394]
+bus = &"Bgm"

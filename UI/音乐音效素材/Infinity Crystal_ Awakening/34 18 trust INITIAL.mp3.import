@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://dd2i5q1ijxmxj"
+path="res://.godot/imported/34 18 trust INITIAL.mp3-78332697a96039ffa12803f8787a0998.mp3str"
+
+[deps]
+
+source_file="res://UI/音乐音效素材/Infinity Crystal_ Awakening/34 18 trust INITIAL.mp3"
+dest_files=["res://.godot/imported/34 18 trust INITIAL.mp3-78332697a96039ffa12803f8787a0998.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

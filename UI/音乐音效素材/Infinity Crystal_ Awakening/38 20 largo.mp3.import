@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://biejwgl1m646o"
+path="res://.godot/imported/38 20 largo.mp3-ac2421c4a1fd095e003815207e7e250b.mp3str"
+
+[deps]
+
+source_file="res://UI/音乐音效素材/Infinity Crystal_ Awakening/38 20 largo.mp3"
+dest_files=["res://.godot/imported/38 20 largo.mp3-ac2421c4a1fd095e003815207e7e250b.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

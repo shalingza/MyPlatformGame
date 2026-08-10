@@ -1,0 +1,18 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://dj4g1d0wtfr0r"
+valid=false
+
+[deps]
+
+source_file="res://bgm/Infinity Crystal_ Awakening/._29 15 game over LOOP.mp3"
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

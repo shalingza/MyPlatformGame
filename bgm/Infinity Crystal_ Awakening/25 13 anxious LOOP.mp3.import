@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://x3uwr4opn51w"
+path="res://.godot/imported/25 13 anxious LOOP.mp3-6e7ab906b430ee8ee9461c58ea87c96f.mp3str"
+
+[deps]
+
+source_file="res://bgm/Infinity Crystal_ Awakening/25 13 anxious LOOP.mp3"
+dest_files=["res://.godot/imported/25 13 anxious LOOP.mp3-6e7ab906b430ee8ee9461c58ea87c96f.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4
