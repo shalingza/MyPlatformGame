@@ -132,8 +132,11 @@ public partial class Player : CharacterBody2D
         }
         if (Input.IsActionJustPressed("pause"))
         {
-            var pausescreen = GetNode<PauseScreen>("/root/World/Player/CanvasLayer/PauseScreen");
-            pausescreen.ShowPause();
+            var pausescreen = GetNode<PauseScreen>("CanvasLayer/PauseScreen");
+            if (pausescreen != null)
+            {
+                pausescreen.ShowPause();
+            }
         }
     }
 

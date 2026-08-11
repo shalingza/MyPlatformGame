@@ -24,6 +24,11 @@ public partial class Game : Node
     }
     public async Task ChangeScene(String path, Godot.Collections.Dictionary param = null  )//场景跳转函数
 	{
+        if (!ResourceLoader.Exists(path))
+        {
+            GD.PrintErr("路径不存在：" + path);
+            return;
+        }
         if (param == null)
         {
             param = new Godot.Collections.Dictionary();
@@ -204,7 +209,7 @@ public partial class Game : Node
 
     public async void BackToTitle()
     {
-        await ChangeScene("res://ui/title_screen.tscn", new Godot.Collections.Dictionary(){
+        await ChangeScene("res://UI/title_screen.tscn", new Godot.Collections.Dictionary(){
     { "duration", 0.4f }
      }      );
     }

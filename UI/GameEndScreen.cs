@@ -13,7 +13,7 @@ public partial class GameEndScreen : Control
 	Tween tween;
 	[Export] Label label;
     [Export] AudioStream bgm;
-    void ShowLine(int line)
+    void ShowLine(int line)//显示文本的函数 并且控制字体颜色变化
 	{
 		currentline = line;
 		tween = CreateTween();

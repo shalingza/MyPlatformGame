@@ -8,7 +8,7 @@ public partial class Cave : World
     {
         await ToSignal(GetTree().CreateTimer(1), Timer.SignalName.Timeout);
         var game = GetNode<Game>("/root/Game");
-        await game.ChangeScene("res://ui/gameendscreen.tscn", new Godot.Collections.Dictionary(){
+        await game.ChangeScene("res://UI/gameendscreen.tscn", new Godot.Collections.Dictionary(){
     { "duration", 1f }
      });
     }

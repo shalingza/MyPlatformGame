@@ -34,8 +34,11 @@ public partial class Enemy : CharacterBody2D
 		{
 			
 			_direction = value;
-			graphics.Scale =new Vector2 ( -(int)direction ,graphics .Scale .Y );
-		} 
+            if (graphics != null)
+            {
+                graphics.Scale = new Vector2(-(int)value, graphics.Scale.Y);
+            }
+        } 
 	
 	
 	}   
@@ -57,7 +60,11 @@ public partial class Enemy : CharacterBody2D
     public override void _Ready()
 	{
 		AddToGroup("enemies");
-	}
+        if (graphics != null)
+        {
+            graphics.Scale = new Vector2(-(int)direction, graphics.Scale.Y);
+        }
+    }
 
 	
 	public override void _Process(double delta)
