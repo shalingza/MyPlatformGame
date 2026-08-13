@@ -14,6 +14,7 @@
 [ext_resource type="TileSet" uid="uid://d20u4hwssj5jr" path="res://tileset/tile_set3.tres" id="6_kjco3"]
 [ext_resource type="Script" uid="uid://csyipw8ua675u" path="res://classes/ShakyCamera.cs" id="11_q67jn"]
 [ext_resource type="PackedScene" uid="uid://b73khclodhrfx" path="res://object/save_stone.tscn" id="12_ayjhf"]
+[ext_resource type="PackedScene" uid="uid://k6mkjpwgmgkb" path="res://Dialogues/npc.tscn" id="15_htovw"]
 
 [node name="World" type="Node2D" unique_id=1007497404 node_paths=PackedStringArray("tilemap", "camera", "player")]
 script = ExtResource("1_qto5f")
@@ -149,7 +150,7 @@ script = ExtResource("11_q67jn")
 
 [node name="SaveStone" parent="." unique_id=991410020 instance=ExtResource("12_ayjhf")]
 z_index = -1
-position = Vector2(88, 128)
+position = Vector2(208, -224)
 
 [node name="Foreground" type="ParallaxBackground" parent="." unique_id=522950955]
 layer = 0
@@ -339,3 +340,6 @@ position = Vector2(984, 112)
 
 [node name="Boar2" parent="." unique_id=1552195631 instance=ExtResource("6_1qeit")]
 position = Vector2(1064, -432)
+
+[node name="Npc" parent="." unique_id=510750953 instance=ExtResource("15_htovw")]
+position = Vector2(128, 144)

@@ -7,16 +7,21 @@ public partial class TitleScreen : Control
     [Export] Button loadgame;
     [Export] AnimatedSprite2D animated;
     [Export] AudioStream bgm;
+   
     public override void _Ready()
 	{
-       
+        var sound = GetNode<SoundManager>("/root/SoundManager");// 延迟 0.2 秒启用，避开场景加载时的自动焦点变化
+        
+        GetNode<SoundManager>("/root/SoundManager").SetupUISound(this);
+        
+        GetTree().CreateTimer(0.2f).Timeout += () => sound.EnableUISound();
         var game = GetNode<Game>("/root/Game");
         if (!game .HasSave ())
         {
             loadgame.Disabled = true;
             loadgame.AddThemeColorOverride("font_color", new Color(0.5f, 0.5f, 0.5f));
         }
-        GetNode<SoundManager>("/root/SoundManager").SetupUISound(this);
+       
 
         newgame.GrabFocus();
         var buttons = GetTree().GetNodesInGroup("buttons");

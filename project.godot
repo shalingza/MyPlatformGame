@@ -20,6 +20,7 @@ config/icon="res://icon.svg"
 Game="*uid://d2vmxn5ougk0b"
 Vignette="uid://deu0ailyrqco1"
 SoundManager="*uid://dytjrw12jswfb"
+UIManager="*uid://dbb12ij75svqa"
 
 [display]
 
@@ -83,6 +84,7 @@ pause={
 2d_physics/layer_3="enemy"
 2d_physics/layer_4="playerhitbox"
 2d_physics/layer_5="enemyhurtbox"
+2d_physics/layer_6="Npc"
 
 [physics]
 

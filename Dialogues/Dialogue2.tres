@@ -1,0 +1,32 @@
+[gd_resource type="Resource" format=3 uid="uid://bietarjtcjn4f"]
+
+[ext_resource type="Texture2D" uid="uid://1asp8t2a3rka" path="res://Dialogues/head-export4.png" id="1_867nh"]
+[ext_resource type="Script" uid="uid://bnohahderkmss" path="res://scripts/Dialogue.cs" id="2_6t7v6"]
+[ext_resource type="Texture2D" uid="uid://sg73i562dgj0" path="res://generic_char_v0.2/generic_char_v0.2/png/blue/char_blue-head_1.png" id="3_3jsuq"]
+[ext_resource type="Script" uid="uid://hcbf5afxotgy" path="res://scripts/DialogueGroup.cs" id="4_6kk1h"]
+
+[sub_resource type="Resource" id="Resource_hhu5t"]
+script = ExtResource("2_6t7v6")
+charactername = "npc"
+content = "都告诉你不要乱打人了，给你个教训"
+avatar = ExtResource("1_867nh")
+metadata/_custom_type_script = "uid://bnohahderkmss"
+
+[sub_resource type="Resource" id="Resource_s8twu"]
+script = ExtResource("2_6t7v6")
+charactername = "player"
+content = "错了错了，下次注意。"
+avatar = ExtResource("3_3jsuq")
+showonleft = true
+metadata/_custom_type_script = "uid://bnohahderkmss"
+
+[sub_resource type="Resource" id="Resource_6lrqo"]
+script = ExtResource("2_6t7v6")
+charactername = "npc"
+content = "还有下次继续打。"
+avatar = ExtResource("1_867nh")
+metadata/_custom_type_script = "uid://bnohahderkmss"
+
+[resource]
+script = ExtResource("4_6kk1h")
+dialoguelist = Array[Object]([SubResource("Resource_hhu5t"), SubResource("Resource_s8twu"), SubResource("Resource_6lrqo")])

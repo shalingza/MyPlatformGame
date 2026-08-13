@@ -17,10 +17,16 @@ public partial class SoundManager : Node
 
 	[Export]Node sfx;
 	[Export] AudioStreamPlayer bgmplayer;
+    private bool uisoundenabled = false;
+    public void PlayUISFX(string name)
+    {
+        if (!uisoundenabled) return;
+        PlaySFX(name);
+    }
 
+    public void EnableUISound() => uisoundenabled = true;
 
-
-	public void PlaySFX(String name)
+    public void PlaySFX(String name)
 	{
         AudioStreamPlayer player = sfx.GetNode<AudioStreamPlayer>(name);
 		if (player==null)
@@ -45,14 +51,14 @@ public partial class SoundManager : Node
 	{
 		if (node is Button button)
 		{
-            button.Pressed += () => PlaySFX("UIPress");
-			button.FocusEntered += () => PlaySFX("UIFocus");
-            button.MouseEntered += () => button .GrabFocus();
+            button.Pressed += () => PlayUISFX("UIPress");
+            button.FocusEntered += () => PlayUISFX("UIFocus");
+            button.MouseEntered += () => button.GrabFocus();
         }
 		if (node is Slider slider)
 		{
-            slider.ValueChanged += (double v) => PlaySFX("UIPress");
-            slider.FocusEntered += () => PlaySFX("UIFocus");
+            slider.ValueChanged += (double v) => PlayUISFX("UIPress");
+            slider.FocusEntered += () => PlayUISFX("UIFocus");
             slider.MouseEntered += () => slider.GrabFocus();
         }
 		foreach(var child in node.GetChildren())

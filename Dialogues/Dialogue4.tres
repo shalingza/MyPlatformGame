@@ -1,0 +1,25 @@
+[gd_resource type="Resource" format=3 uid="uid://cnijyue0b6and"]
+
+[ext_resource type="Texture2D" uid="uid://1asp8t2a3rka" path="res://Dialogues/head-export4.png" id="1_wol2c"]
+[ext_resource type="Script" uid="uid://bnohahderkmss" path="res://scripts/Dialogue.cs" id="2_ys4wg"]
+[ext_resource type="Texture2D" uid="uid://sg73i562dgj0" path="res://generic_char_v0.2/generic_char_v0.2/png/blue/char_blue-head_1.png" id="3_o8au4"]
+[ext_resource type="Script" uid="uid://hcbf5afxotgy" path="res://scripts/DialogueGroup.cs" id="4_g46l7"]
+
+[sub_resource type="Resource" id="Resource_7n616"]
+script = ExtResource("2_ys4wg")
+charactername = "npc"
+content = "你还想问我几次，快去过关吧"
+avatar = ExtResource("1_wol2c")
+metadata/_custom_type_script = "uid://bnohahderkmss"
+
+[sub_resource type="Resource" id="Resource_bxw85"]
+script = ExtResource("2_ys4wg")
+charactername = "player"
+content = "溜了溜了"
+avatar = ExtResource("3_o8au4")
+showonleft = true
+metadata/_custom_type_script = "uid://bnohahderkmss"
+
+[resource]
+script = ExtResource("4_g46l7")
+dialoguelist = Array[Object]([SubResource("Resource_7n616"), SubResource("Resource_bxw85")])

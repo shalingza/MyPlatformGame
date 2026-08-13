@@ -1,0 +1,48 @@
+[gd_resource type="Resource" format=3 uid="uid://cd0ymo2q5vjy8"]
+
+[ext_resource type="Texture2D" uid="uid://sg73i562dgj0" path="res://generic_char_v0.2/generic_char_v0.2/png/blue/char_blue-head_1.png" id="1_fif1c"]
+[ext_resource type="Script" uid="uid://bnohahderkmss" path="res://scripts/Dialogue.cs" id="2_lwdm3"]
+[ext_resource type="Texture2D" uid="uid://1asp8t2a3rka" path="res://Dialogues/head-export4.png" id="3_r5cc2"]
+[ext_resource type="Script" uid="uid://hcbf5afxotgy" path="res://scripts/DialogueGroup.cs" id="4_y4y0v"]
+
+[sub_resource type="Resource" id="Resource_qoee5"]
+script = ExtResource("2_lwdm3")
+charactername = "player"
+content = "你好初次见面，有什么注意的吗。"
+avatar = ExtResource("1_fif1c")
+showonleft = true
+metadata/_custom_type_script = "uid://bnohahderkmss"
+
+[sub_resource type="Resource" id="Resource_tqn5f"]
+script = ExtResource("2_lwdm3")
+charactername = "Npc"
+content = "注意操作 “j”攻击”k“跳跃”l“是滑铲，可以蹭墙跳，注意体力和血量以及不要受伤。然后就是别乱打别人。"
+avatar = ExtResource("3_r5cc2")
+metadata/_custom_type_script = "uid://bnohahderkmss"
+
+[sub_resource type="Resource" id="Resource_fif1c"]
+script = ExtResource("2_lwdm3")
+charactername = "player"
+content = "我该怎么通关呢"
+avatar = ExtResource("1_fif1c")
+showonleft = true
+metadata/_custom_type_script = "uid://bnohahderkmss"
+
+[sub_resource type="Resource" id="Resource_lwdm3"]
+script = ExtResource("2_lwdm3")
+charactername = "npc"
+content = "击败第二个场景的野猪即可，注意路上的存档点。"
+avatar = ExtResource("3_r5cc2")
+metadata/_custom_type_script = "uid://bnohahderkmss"
+
+[sub_resource type="Resource" id="Resource_r5cc2"]
+script = ExtResource("2_lwdm3")
+charactername = "player"
+content = "好的，感谢提醒"
+avatar = ExtResource("1_fif1c")
+showonleft = true
+metadata/_custom_type_script = "uid://bnohahderkmss"
+
+[resource]
+script = ExtResource("4_y4y0v")
+dialoguelist = Array[Object]([SubResource("Resource_qoee5"), SubResource("Resource_tqn5f"), SubResource("Resource_fif1c"), SubResource("Resource_lwdm3"), SubResource("Resource_r5cc2")])

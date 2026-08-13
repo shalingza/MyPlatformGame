@@ -11,6 +11,12 @@ public partial class Hurtbox : Area2D
 
 	void OnHurtboxHurt(Hitbox hitbox)
 	{
+        if (Owner is Npc npc)
+        {
+            
+            npc.OnHurtByPlayer(hitbox);// 触发 NPC 的反击（可以用信号或直接调用方法）
+            return;
+        }
         if (stats.health <= 0) return;
         Damage pendingdamage = new Damage();
 		pendingdamage.amount = 1;

@@ -38,6 +38,7 @@ public partial class Player : CharacterBody2D
       Slidingstart,
       Slidingloop,
       Slidingend,
+      Dialogue,
     }
     
     const int knockbackamount = 312;//击退力度
@@ -46,14 +47,14 @@ public partial class Player : CharacterBody2D
     const float landingheight = 100.0f;//跳下来触发着陆动画的像素高度
     const float slidingenergy = 4f;//滑铲的能量
 
-
+    public bool isindialogue { get; set; } = false;
     bool isfirsttick = false;//用来判断是否是刚进入该状态的第一帧
     private state[] groundStates = [state.Idle, state.Running,state.Landing ,state.Attack1 ,state.Attack2 ,state .Attack3];//判断哪些状态是处于在地板上的状态
     float defaultgravity = (float)ProjectSettings.GetSetting("physics/2d/default_gravity");//玩家受到的重力效果
     float acceleration;//当前加速度
 
     public List<Interactable> interactingwith = new List<Interactable>(); //交互控制器
-    Damage Pendingdamage=null ;
+    public Damage Pendingdamage=null ;
     bool canjump;//是否能跳跃
     public float fallfrom;//表示角色从多高跳下来
     bool iscombolrequest = false;//判断连击是否发生 
@@ -103,6 +104,20 @@ public partial class Player : CharacterBody2D
     
     public override void _UnhandledInput(InputEvent @event)//控制跳跃的函数
     {
+        if (isindialogue) return;
+        if (Input.IsActionJustPressed("pause"))
+        {
+            var pausescreen = GetNode<PauseScreen>("CanvasLayer/PauseScreen");
+            if (pausescreen != null)
+            {
+                pausescreen.ShowPause();
+            }
+        }
+        
+        
+        
+        
+
         if (Input.IsActionJustPressed("jump"))
         {
             jumprequestimer .Start();
@@ -130,18 +145,12 @@ public partial class Player : CharacterBody2D
         {
             interactingwith[interactingwith.Count - 1]. Interact();
         }
-        if (Input.IsActionJustPressed("pause"))
-        {
-            var pausescreen = GetNode<PauseScreen>("CanvasLayer/PauseScreen");
-            if (pausescreen != null)
-            {
-                pausescreen.ShowPause();
-            }
-        }
+        
     }
 
     public void TickPhysics(state State, float delta)//用来判断当前的状态下可以做的活动
     {
+        if (isindialogue) return;
         interactionicon.Visible = interactingwith != null&& interactingwith.Count > 0;
         if (invinvibletimer .TimeLeft >0)//无敌时闪光且无视怪物碰撞
         {
@@ -237,6 +246,9 @@ public partial class Player : CharacterBody2D
                 break;
             case state.Slidingloop:
                 slide(delta);
+                break;
+            case state.Dialogue:
+                MoveAndSlide();
                 break;
         }
 
@@ -347,7 +359,9 @@ public partial class Player : CharacterBody2D
 
     public state GetNextState(state State)//得到下一个状态的函数 根据当前状态和判断用来确定下一个状态是什么
     {
-       if (stats.health == 0 && State != state.Dying)
+        if (State == state.Dialogue) return state.Dialogue;
+
+        if (stats.health == 0 && State != state.Dying)
         {
 
             return state .Dying ;
@@ -555,6 +569,9 @@ public partial class Player : CharacterBody2D
 
                 break;
 
+            
+               
+
         }
         return State;
     }
@@ -665,7 +682,9 @@ public partial class Player : CharacterBody2D
             case state.Slidingend:
                 animationplayer.Play("sliding_end");
                 break;
-
+            case state.Dialogue:
+                animationplayer .Play ("idle");
+                break;
 
         }
         isfirsttick = true;

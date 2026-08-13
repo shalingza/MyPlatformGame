@@ -12,6 +12,12 @@ public partial class SaveStone : Interactable
 		animationplayer.Play("activated");
         GetNode<SoundManager>("/root/SoundManager").PlaySFX("Save");
         var game = GetNode<Game>("/root/Game");
+        var stats = game.GetNode<Stats>("Playerstats");
+        if (stats != null)
+        {
+            stats.health = Math.Min(stats.health + 1, stats.maxhealth);
+            
+        }
         game.SaveGame();
     }
 
